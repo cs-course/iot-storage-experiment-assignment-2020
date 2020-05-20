@@ -1,9 +1,9 @@
 #!/bin/bash
-#test shell-script 4 for NumClient=1 NumSample=[5,1280] ObjectSize=1024
+#test shell-script 4 for NumClient=1 NumSample=[5,1280] ObjectSize=1KB
 
 # Locate s3bench
 
-s3bench=~/go/bin/s3bench
+s3bench=~/gopath/bin/s3bench
 
 if [ -n "$GOPATH" ]; then
     s3bench=$GOPATH/bin/s3bench

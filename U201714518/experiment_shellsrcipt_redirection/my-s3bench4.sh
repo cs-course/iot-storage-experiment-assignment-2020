@@ -3,7 +3,7 @@
 
 # Locate s3bench
 
-s3bench=~/go/bin/s3bench
+s3bench=~/gopath/bin/s3bench
 
 if [ -n "$GOPATH" ]; then
     s3bench=$GOPATH/bin/s3bench
@@ -17,8 +17,8 @@ bucket="loadgen"
 ObjectNamePrefix="loadgen"
 AccessKey="hust"
 AccessSecret="hust_obs"
-filepath="minio_server_4.txt"
-# filepath="mock_s3_server_4.txt"
+#filepath="minio_server_4.txt"
+filepath="mock_s3_server_4.txt"
 
 declare  -a  NumClient
 declare  -a  NumSample

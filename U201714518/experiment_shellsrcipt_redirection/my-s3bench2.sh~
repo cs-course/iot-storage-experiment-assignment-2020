@@ -3,7 +3,7 @@
 
 # Locate s3bench
 
-s3bench=~/go/bin/s3bench
+s3bench=~/gopath/bin/s3bench
 
 if [ -n "$GOPATH" ]; then
     s3bench=$GOPATH/bin/s3bench
@@ -29,7 +29,7 @@ NumSample=( 100  100  100  100  100  100  100  100  100  100  100)
 ObjectSize=(1024 1024 1024 1024 1024 1024 1024 1024 1024 1024 1024)
 
 #display run progress
-progress=11
+progress=10
 
 for(( i=0;i<${#NumClient[@]};i++)) 
 do  
