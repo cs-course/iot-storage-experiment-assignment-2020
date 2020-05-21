@@ -8,7 +8,7 @@ numSamples:       100
 verbose:       %!d(bool=false)
 
 
-Generating in-memory sample data... Done (50.878µs)
+Generating in-memory sample data... Done (113.459µs)
 
 Running Write test...
 
@@ -26,13 +26,13 @@ verbose:       %!d(bool=false)
 
 Results Summary for Write Operation(s)
 Total Transferred: 0.098 MB
-Total Throughput:  0.41 MB/s
-Total Duration:    0.236 s
+Total Throughput:  0.34 MB/s
+Total Duration:    0.290 s
 Number of Errors:  0
 ------------------------------------
 Write times Max:       0.042 s
 Write times 99th %ile: 0.042 s
-Write times 90th %ile: 0.003 s
+Write times 90th %ile: 0.005 s
 Write times 75th %ile: 0.002 s
 Write times 50th %ile: 0.001 s
 Write times 25th %ile: 0.001 s
@@ -41,13 +41,13 @@ Write times Min:       0.001 s
 
 Results Summary for Read Operation(s)
 Total Transferred: 0.098 MB
-Total Throughput:  0.64 MB/s
-Total Duration:    0.152 s
+Total Throughput:  0.91 MB/s
+Total Duration:    0.107 s
 Number of Errors:  0
 ------------------------------------
-Read times Max:       0.037 s
-Read times 99th %ile: 0.037 s
-Read times 90th %ile: 0.002 s
+Read times Max:       0.011 s
+Read times 99th %ile: 0.011 s
+Read times 90th %ile: 0.001 s
 Read times 75th %ile: 0.001 s
 Read times 50th %ile: 0.001 s
 Read times 25th %ile: 0.001 s
@@ -56,7 +56,7 @@ Read times Min:       0.001 s
 
 Cleaning up 100 objects...
 Deleting a batch of 100 objects in range {0, 99}... Succeeded
-Successfully deleted 100/100 objects in 22.049426ms
+Successfully deleted 100/100 objects in 19.725408ms
 =========================================================> 0/9 done
 
 Test parameters
@@ -69,7 +69,7 @@ numSamples:       100
 verbose:       %!d(bool=false)
 
 
-Generating in-memory sample data... Done (77.087µs)
+Generating in-memory sample data... Done (41.093µs)
 
 Running Write test...
 
@@ -87,69 +87,8 @@ verbose:       %!d(bool=false)
 
 Results Summary for Write Operation(s)
 Total Transferred: 0.195 MB
-Total Throughput:  1.45 MB/s
-Total Duration:    0.135 s
-Number of Errors:  0
-------------------------------------
-Write times Max:       0.019 s
-Write times 99th %ile: 0.019 s
-Write times 90th %ile: 0.002 s
-Write times 75th %ile: 0.001 s
-Write times 50th %ile: 0.001 s
-Write times 25th %ile: 0.001 s
-Write times Min:       0.001 s
-
-
-Results Summary for Read Operation(s)
-Total Transferred: 0.195 MB
-Total Throughput:  1.94 MB/s
-Total Duration:    0.101 s
-Number of Errors:  0
-------------------------------------
-Read times Max:       0.003 s
-Read times 99th %ile: 0.003 s
-Read times 90th %ile: 0.001 s
-Read times 75th %ile: 0.001 s
-Read times 50th %ile: 0.001 s
-Read times 25th %ile: 0.001 s
-Read times Min:       0.001 s
-
-
-Cleaning up 100 objects...
-Deleting a batch of 100 objects in range {0, 99}... Succeeded
-Successfully deleted 100/100 objects in 3.381576ms
-=========================================================> 1/9 done
-
-Test parameters
-endpoint(s):      [http://127.0.0.1:9000]
-bucket:           loadgen
-objectNamePrefix: loadgen
-objectSize:       0.0039 MB
-numClients:       1
-numSamples:       100
-verbose:       %!d(bool=false)
-
-
-Generating in-memory sample data... Done (42.316µs)
-
-Running Write test...
-
-Running Read test...
-
-Test parameters
-endpoint(s):      [http://127.0.0.1:9000]
-bucket:           loadgen
-objectNamePrefix: loadgen
-objectSize:       0.0039 MB
-numClients:       1
-numSamples:       100
-verbose:       %!d(bool=false)
-
-
-Results Summary for Write Operation(s)
-Total Transferred: 0.391 MB
-Total Throughput:  3.41 MB/s
-Total Duration:    0.114 s
+Total Throughput:  1.76 MB/s
+Total Duration:    0.111 s
 Number of Errors:  0
 ------------------------------------
 Write times Max:       0.002 s
@@ -162,13 +101,13 @@ Write times Min:       0.001 s
 
 
 Results Summary for Read Operation(s)
-Total Transferred: 0.391 MB
-Total Throughput:  3.84 MB/s
-Total Duration:    0.102 s
+Total Transferred: 0.195 MB
+Total Throughput:  1.89 MB/s
+Total Duration:    0.103 s
 Number of Errors:  0
 ------------------------------------
-Read times Max:       0.003 s
-Read times 99th %ile: 0.003 s
+Read times Max:       0.004 s
+Read times 99th %ile: 0.004 s
 Read times 90th %ile: 0.001 s
 Read times 75th %ile: 0.001 s
 Read times 50th %ile: 0.001 s
@@ -178,7 +117,68 @@ Read times Min:       0.001 s
 
 Cleaning up 100 objects...
 Deleting a batch of 100 objects in range {0, 99}... Succeeded
-Successfully deleted 100/100 objects in 3.253891ms
+Successfully deleted 100/100 objects in 2.408992ms
+=========================================================> 1/9 done
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           loadgen
+objectNamePrefix: loadgen
+objectSize:       0.0039 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (48.321µs)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           loadgen
+objectNamePrefix: loadgen
+objectSize:       0.0039 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.391 MB
+Total Throughput:  3.42 MB/s
+Total Duration:    0.114 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.003 s
+Write times 99th %ile: 0.003 s
+Write times 90th %ile: 0.001 s
+Write times 75th %ile: 0.001 s
+Write times 50th %ile: 0.001 s
+Write times 25th %ile: 0.001 s
+Write times Min:       0.001 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.391 MB
+Total Throughput:  3.75 MB/s
+Total Duration:    0.104 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.005 s
+Read times 99th %ile: 0.005 s
+Read times 90th %ile: 0.001 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 2.320167ms
 =========================================================> 2/9 done
 
 Test parameters
@@ -191,7 +191,7 @@ numSamples:       100
 verbose:       %!d(bool=false)
 
 
-Generating in-memory sample data... Done (93.056µs)
+Generating in-memory sample data... Done (92.148µs)
 
 Running Write test...
 
@@ -209,13 +209,13 @@ verbose:       %!d(bool=false)
 
 Results Summary for Write Operation(s)
 Total Transferred: 0.977 MB
-Total Throughput:  8.13 MB/s
-Total Duration:    0.120 s
+Total Throughput:  8.20 MB/s
+Total Duration:    0.119 s
 Number of Errors:  0
 ------------------------------------
-Write times Max:       0.002 s
-Write times 99th %ile: 0.002 s
-Write times 90th %ile: 0.002 s
+Write times Max:       0.003 s
+Write times 99th %ile: 0.003 s
+Write times 90th %ile: 0.001 s
 Write times 75th %ile: 0.001 s
 Write times 50th %ile: 0.001 s
 Write times 25th %ile: 0.001 s
@@ -224,69 +224,8 @@ Write times Min:       0.001 s
 
 Results Summary for Read Operation(s)
 Total Transferred: 0.977 MB
-Total Throughput:  9.24 MB/s
-Total Duration:    0.106 s
-Number of Errors:  0
-------------------------------------
-Read times Max:       0.004 s
-Read times 99th %ile: 0.004 s
-Read times 90th %ile: 0.001 s
-Read times 75th %ile: 0.001 s
-Read times 50th %ile: 0.001 s
-Read times 25th %ile: 0.001 s
-Read times Min:       0.001 s
-
-
-Cleaning up 100 objects...
-Deleting a batch of 100 objects in range {0, 99}... Succeeded
-Successfully deleted 100/100 objects in 2.347826ms
-=========================================================> 3/9 done
-
-Test parameters
-endpoint(s):      [http://127.0.0.1:9000]
-bucket:           loadgen
-objectNamePrefix: loadgen
-objectSize:       0.0195 MB
-numClients:       1
-numSamples:       100
-verbose:       %!d(bool=false)
-
-
-Generating in-memory sample data... Done (149.604µs)
-
-Running Write test...
-
-Running Read test...
-
-Test parameters
-endpoint(s):      [http://127.0.0.1:9000]
-bucket:           loadgen
-objectNamePrefix: loadgen
-objectSize:       0.0195 MB
-numClients:       1
-numSamples:       100
-verbose:       %!d(bool=false)
-
-
-Results Summary for Write Operation(s)
-Total Transferred: 1.953 MB
-Total Throughput:  13.09 MB/s
-Total Duration:    0.149 s
-Number of Errors:  0
-------------------------------------
-Write times Max:       0.025 s
-Write times 99th %ile: 0.025 s
-Write times 90th %ile: 0.002 s
-Write times 75th %ile: 0.001 s
-Write times 50th %ile: 0.001 s
-Write times 25th %ile: 0.001 s
-Write times Min:       0.001 s
-
-
-Results Summary for Read Operation(s)
-Total Transferred: 1.953 MB
-Total Throughput:  18.86 MB/s
-Total Duration:    0.104 s
+Total Throughput:  9.33 MB/s
+Total Duration:    0.105 s
 Number of Errors:  0
 ------------------------------------
 Read times Max:       0.003 s
@@ -300,7 +239,68 @@ Read times Min:       0.001 s
 
 Cleaning up 100 objects...
 Deleting a batch of 100 objects in range {0, 99}... Succeeded
-Successfully deleted 100/100 objects in 2.406694ms
+Successfully deleted 100/100 objects in 2.398505ms
+=========================================================> 3/9 done
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           loadgen
+objectNamePrefix: loadgen
+objectSize:       0.0195 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (153.533µs)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           loadgen
+objectNamePrefix: loadgen
+objectSize:       0.0195 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 1.953 MB
+Total Throughput:  13.91 MB/s
+Total Duration:    0.140 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.018 s
+Write times 99th %ile: 0.018 s
+Write times 90th %ile: 0.002 s
+Write times 75th %ile: 0.001 s
+Write times 50th %ile: 0.001 s
+Write times 25th %ile: 0.001 s
+Write times Min:       0.001 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 1.953 MB
+Total Throughput:  18.66 MB/s
+Total Duration:    0.105 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.005 s
+Read times 99th %ile: 0.005 s
+Read times 90th %ile: 0.001 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 2.356468ms
 =========================================================> 4/9 done
 
 Test parameters
@@ -313,7 +313,7 @@ numSamples:       100
 verbose:       %!d(bool=false)
 
 
-Generating in-memory sample data... Done (293.972µs)
+Generating in-memory sample data... Done (269.652µs)
 
 Running Write test...
 
@@ -331,12 +331,12 @@ verbose:       %!d(bool=false)
 
 Results Summary for Write Operation(s)
 Total Transferred: 3.906 MB
-Total Throughput:  28.66 MB/s
-Total Duration:    0.136 s
+Total Throughput:  26.90 MB/s
+Total Duration:    0.145 s
 Number of Errors:  0
 ------------------------------------
-Write times Max:       0.002 s
-Write times 99th %ile: 0.002 s
+Write times Max:       0.005 s
+Write times 99th %ile: 0.005 s
 Write times 90th %ile: 0.002 s
 Write times 75th %ile: 0.001 s
 Write times 50th %ile: 0.001 s
@@ -346,13 +346,13 @@ Write times Min:       0.001 s
 
 Results Summary for Read Operation(s)
 Total Transferred: 3.906 MB
-Total Throughput:  35.07 MB/s
-Total Duration:    0.111 s
+Total Throughput:  36.35 MB/s
+Total Duration:    0.107 s
 Number of Errors:  0
 ------------------------------------
-Read times Max:       0.004 s
-Read times 99th %ile: 0.004 s
-Read times 90th %ile: 0.002 s
+Read times Max:       0.003 s
+Read times 99th %ile: 0.003 s
+Read times 90th %ile: 0.001 s
 Read times 75th %ile: 0.001 s
 Read times 50th %ile: 0.001 s
 Read times 25th %ile: 0.001 s
@@ -361,7 +361,7 @@ Read times Min:       0.001 s
 
 Cleaning up 100 objects...
 Deleting a batch of 100 objects in range {0, 99}... Succeeded
-Successfully deleted 100/100 objects in 2.938511ms
+Successfully deleted 100/100 objects in 3.038831ms
 =========================================================> 5/9 done
 
 Test parameters
@@ -374,7 +374,7 @@ numSamples:       100
 verbose:       %!d(bool=false)
 
 
-Generating in-memory sample data... Done (668.863µs)
+Generating in-memory sample data... Done (654.775µs)
 
 Running Write test...
 
@@ -392,27 +392,27 @@ verbose:       %!d(bool=false)
 
 Results Summary for Write Operation(s)
 Total Transferred: 9.766 MB
-Total Throughput:  56.39 MB/s
+Total Throughput:  56.36 MB/s
 Total Duration:    0.173 s
 Number of Errors:  0
 ------------------------------------
-Write times Max:       0.003 s
-Write times 99th %ile: 0.003 s
+Write times Max:       0.004 s
+Write times 99th %ile: 0.004 s
 Write times 90th %ile: 0.002 s
 Write times 75th %ile: 0.002 s
 Write times 50th %ile: 0.002 s
 Write times 25th %ile: 0.002 s
-Write times Min:       0.002 s
+Write times Min:       0.001 s
 
 
 Results Summary for Read Operation(s)
 Total Transferred: 9.766 MB
-Total Throughput:  85.82 MB/s
+Total Throughput:  85.83 MB/s
 Total Duration:    0.114 s
 Number of Errors:  0
 ------------------------------------
-Read times Max:       0.004 s
-Read times 99th %ile: 0.004 s
+Read times Max:       0.002 s
+Read times 99th %ile: 0.002 s
 Read times 90th %ile: 0.001 s
 Read times 75th %ile: 0.001 s
 Read times 50th %ile: 0.001 s
@@ -422,7 +422,7 @@ Read times Min:       0.001 s
 
 Cleaning up 100 objects...
 Deleting a batch of 100 objects in range {0, 99}... Succeeded
-Successfully deleted 100/100 objects in 2.372065ms
+Successfully deleted 100/100 objects in 2.773688ms
 =========================================================> 6/9 done
 
 Test parameters
@@ -435,7 +435,7 @@ numSamples:       100
 verbose:       %!d(bool=false)
 
 
-Generating in-memory sample data... Done (1.474928ms)
+Generating in-memory sample data... Done (1.291152ms)
 
 Running Write test...
 
@@ -453,12 +453,12 @@ verbose:       %!d(bool=false)
 
 Results Summary for Write Operation(s)
 Total Transferred: 19.531 MB
-Total Throughput:  74.62 MB/s
-Total Duration:    0.262 s
+Total Throughput:  75.40 MB/s
+Total Duration:    0.259 s
 Number of Errors:  0
 ------------------------------------
-Write times Max:       0.004 s
-Write times 99th %ile: 0.004 s
+Write times Max:       0.005 s
+Write times 99th %ile: 0.005 s
 Write times 90th %ile: 0.003 s
 Write times 75th %ile: 0.003 s
 Write times 50th %ile: 0.002 s
@@ -468,7 +468,7 @@ Write times Min:       0.002 s
 
 Results Summary for Read Operation(s)
 Total Transferred: 19.531 MB
-Total Throughput:  161.54 MB/s
+Total Throughput:  161.47 MB/s
 Total Duration:    0.121 s
 Number of Errors:  0
 ------------------------------------
@@ -483,7 +483,7 @@ Read times Min:       0.001 s
 
 Cleaning up 100 objects...
 Deleting a batch of 100 objects in range {0, 99}... Succeeded
-Successfully deleted 100/100 objects in 2.709058ms
+Successfully deleted 100/100 objects in 2.374363ms
 =========================================================> 7/9 done
 
 Test parameters
@@ -496,7 +496,7 @@ numSamples:       100
 verbose:       %!d(bool=false)
 
 
-Generating in-memory sample data... Done (2.574332ms)
+Generating in-memory sample data... Done (2.563796ms)
 
 Running Write test...
 
@@ -514,12 +514,12 @@ verbose:       %!d(bool=false)
 
 Results Summary for Write Operation(s)
 Total Transferred: 39.062 MB
-Total Throughput:  94.89 MB/s
-Total Duration:    0.412 s
+Total Throughput:  77.86 MB/s
+Total Duration:    0.502 s
 Number of Errors:  0
 ------------------------------------
-Write times Max:       0.018 s
-Write times 99th %ile: 0.018 s
+Write times Max:       0.063 s
+Write times 99th %ile: 0.063 s
 Write times 90th %ile: 0.005 s
 Write times 75th %ile: 0.004 s
 Write times 50th %ile: 0.004 s
@@ -529,12 +529,12 @@ Write times Min:       0.004 s
 
 Results Summary for Read Operation(s)
 Total Transferred: 39.062 MB
-Total Throughput:  284.68 MB/s
-Total Duration:    0.137 s
+Total Throughput:  291.13 MB/s
+Total Duration:    0.134 s
 Number of Errors:  0
 ------------------------------------
-Read times Max:       0.003 s
-Read times 99th %ile: 0.003 s
+Read times Max:       0.002 s
+Read times 99th %ile: 0.002 s
 Read times 90th %ile: 0.002 s
 Read times 75th %ile: 0.001 s
 Read times 50th %ile: 0.001 s
@@ -544,7 +544,7 @@ Read times Min:       0.001 s
 
 Cleaning up 100 objects...
 Deleting a batch of 100 objects in range {0, 99}... Succeeded
-Successfully deleted 100/100 objects in 2.577162ms
+Successfully deleted 100/100 objects in 2.390931ms
 =========================================================> 8/9 done
 
 Test parameters
@@ -557,7 +557,7 @@ numSamples:       100
 verbose:       %!d(bool=false)
 
 
-Generating in-memory sample data... Done (6.501099ms)
+Generating in-memory sample data... Done (6.537022ms)
 
 Running Write test...
 
@@ -575,13 +575,13 @@ verbose:       %!d(bool=false)
 
 Results Summary for Write Operation(s)
 Total Transferred: 100.000 MB
-Total Throughput:  69.93 MB/s
-Total Duration:    1.430 s
+Total Throughput:  82.52 MB/s
+Total Duration:    1.212 s
 Number of Errors:  0
 ------------------------------------
-Write times Max:       0.162 s
-Write times 99th %ile: 0.162 s
-Write times 90th %ile: 0.030 s
+Write times Max:       0.157 s
+Write times 99th %ile: 0.157 s
+Write times 90th %ile: 0.022 s
 Write times 75th %ile: 0.008 s
 Write times 50th %ile: 0.008 s
 Write times 25th %ile: 0.007 s
@@ -590,8 +590,8 @@ Write times Min:       0.007 s
 
 Results Summary for Read Operation(s)
 Total Transferred: 100.000 MB
-Total Throughput:  556.28 MB/s
-Total Duration:    0.180 s
+Total Throughput:  549.01 MB/s
+Total Duration:    0.182 s
 Number of Errors:  0
 ------------------------------------
 Read times Max:       0.003 s
@@ -600,11 +600,11 @@ Read times 90th %ile: 0.002 s
 Read times 75th %ile: 0.002 s
 Read times 50th %ile: 0.002 s
 Read times 25th %ile: 0.002 s
-Read times Min:       0.001 s
+Read times Min:       0.002 s
 
 
 Cleaning up 100 objects...
 Deleting a batch of 100 objects in range {0, 99}... Succeeded
-Successfully deleted 100/100 objects in 2.473249ms
+Successfully deleted 100/100 objects in 2.386296ms
 =========================================================> 9/9 done
 
