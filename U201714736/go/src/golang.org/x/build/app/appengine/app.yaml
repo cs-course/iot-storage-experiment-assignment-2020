@@ -1,0 +1,13 @@
+runtime: go111
+
+handlers:
+  - url: /static
+    static_dir: static
+    secure: always
+  - url: /(init|buildtest|key|perflearn|_ah/queue/go/delay)
+    script: auto
+    login: admin
+    secure: always
+  - url: /.*
+    script: auto
+    secure: always
