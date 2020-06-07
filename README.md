@@ -6,6 +6,7 @@
 
 1. 开启Github账号，用上Git
 
+    * Git入门可参考 <https://github.com/cs-course/git-tutorial>
     * git - 简明指南 <http://rogerdudler.github.io/git-guide/index.zh.html>
     * 未来自学
         * 如何高效利用GitHub <http://www.yangzhiping.com/tech/github.html>
@@ -19,8 +20,8 @@
 
 3. 将仓库抓取至本地
 
-    * Git入门可参考 <https://github.com/cs-course/git-tutorial>
-    * 所用命令 `git clone git@github.com:(用户名)/iot-storage-experiment-assignment-2020.git`
+    * 选择一个工作目录用于存放本地仓库，开终端窗口进入目录   
+    * 使用命令 `git clone git@github.com:(用户名)/iot-storage-experiment-assignment-2020.git`
 
 4. 在本地仓库中，用 :point_right: **_自己学号_** :exclamation: 建立文件夹
 
