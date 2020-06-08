@@ -1,0 +1,610 @@
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0010 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (10.022µs)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0010 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.098 MB
+Total Throughput:  0.07 MB/s
+Total Duration:    1.401 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.268 s
+Write times 99th %ile: 0.268 s
+Write times 90th %ile: 0.029 s
+Write times 75th %ile: 0.010 s
+Write times 50th %ile: 0.008 s
+Write times 25th %ile: 0.005 s
+Write times Min:       0.004 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.098 MB
+Total Throughput:  0.23 MB/s
+Total Duration:    0.419 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.103 s
+Read times 99th %ile: 0.103 s
+Read times 90th %ile: 0.006 s
+Read times 75th %ile: 0.002 s
+Read times 50th %ile: 0.002 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 58.682928ms
+=========================================================> 0/9 done
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0020 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (18.556µs)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0020 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.195 MB
+Total Throughput:  0.21 MB/s
+Total Duration:    0.917 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.078 s
+Write times 99th %ile: 0.078 s
+Write times 90th %ile: 0.011 s
+Write times 75th %ile: 0.009 s
+Write times 50th %ile: 0.008 s
+Write times 25th %ile: 0.005 s
+Write times Min:       0.003 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.195 MB
+Total Throughput:  1.20 MB/s
+Total Duration:    0.163 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.019 s
+Read times 99th %ile: 0.019 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.002 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 20.884937ms
+=========================================================> 1/9 done
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0039 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (29.42µs)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0039 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.391 MB
+Total Throughput:  0.49 MB/s
+Total Duration:    0.798 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.035 s
+Write times 99th %ile: 0.035 s
+Write times 90th %ile: 0.010 s
+Write times 75th %ile: 0.009 s
+Write times 50th %ile: 0.009 s
+Write times 25th %ile: 0.005 s
+Write times Min:       0.003 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.391 MB
+Total Throughput:  4.04 MB/s
+Total Duration:    0.097 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.004 s
+Read times 99th %ile: 0.004 s
+Read times 90th %ile: 0.001 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 42.180565ms
+=========================================================> 2/9 done
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0098 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (70.452µs)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0098 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 0.977 MB
+Total Throughput:  1.25 MB/s
+Total Duration:    0.779 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.018 s
+Write times 99th %ile: 0.018 s
+Write times 90th %ile: 0.010 s
+Write times 75th %ile: 0.009 s
+Write times 50th %ile: 0.008 s
+Write times 25th %ile: 0.006 s
+Write times Min:       0.003 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 0.977 MB
+Total Throughput:  7.73 MB/s
+Total Duration:    0.126 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.009 s
+Read times 99th %ile: 0.009 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 28.274073ms
+=========================================================> 3/9 done
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0195 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (121.672µs)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0195 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 1.953 MB
+Total Throughput:  2.49 MB/s
+Total Duration:    0.784 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.019 s
+Write times 99th %ile: 0.019 s
+Write times 90th %ile: 0.010 s
+Write times 75th %ile: 0.009 s
+Write times 50th %ile: 0.008 s
+Write times 25th %ile: 0.006 s
+Write times Min:       0.004 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 1.953 MB
+Total Throughput:  20.87 MB/s
+Total Duration:    0.094 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.003 s
+Read times 99th %ile: 0.003 s
+Read times 90th %ile: 0.001 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 26.095712ms
+=========================================================> 4/9 done
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0391 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (243.766µs)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0391 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 3.906 MB
+Total Throughput:  4.83 MB/s
+Total Duration:    0.808 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.044 s
+Write times 99th %ile: 0.044 s
+Write times 90th %ile: 0.010 s
+Write times 75th %ile: 0.009 s
+Write times 50th %ile: 0.008 s
+Write times 25th %ile: 0.006 s
+Write times Min:       0.004 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 3.906 MB
+Total Throughput:  30.90 MB/s
+Total Duration:    0.126 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.008 s
+Read times 99th %ile: 0.008 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 21.596315ms
+=========================================================> 5/9 done
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0977 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (603.02µs)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.0977 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 9.766 MB
+Total Throughput:  12.22 MB/s
+Total Duration:    0.799 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.030 s
+Write times 99th %ile: 0.030 s
+Write times 90th %ile: 0.010 s
+Write times 75th %ile: 0.009 s
+Write times 50th %ile: 0.008 s
+Write times 25th %ile: 0.006 s
+Write times Min:       0.004 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 9.766 MB
+Total Throughput:  88.69 MB/s
+Total Duration:    0.110 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.005 s
+Read times 99th %ile: 0.005 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 39.798015ms
+=========================================================> 6/9 done
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.1953 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (1.373366ms)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.1953 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 19.531 MB
+Total Throughput:  12.48 MB/s
+Total Duration:    1.565 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.734 s
+Write times 99th %ile: 0.734 s
+Write times 90th %ile: 0.010 s
+Write times 75th %ile: 0.009 s
+Write times 50th %ile: 0.008 s
+Write times 25th %ile: 0.006 s
+Write times Min:       0.004 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 19.531 MB
+Total Throughput:  141.09 MB/s
+Total Duration:    0.138 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.006 s
+Read times 99th %ile: 0.006 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 30.484398ms
+=========================================================> 7/9 done
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.3906 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (2.435576ms)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       0.3906 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 39.062 MB
+Total Throughput:  24.24 MB/s
+Total Duration:    1.612 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.668 s
+Write times 99th %ile: 0.668 s
+Write times 90th %ile: 0.013 s
+Write times 75th %ile: 0.010 s
+Write times 50th %ile: 0.008 s
+Write times 25th %ile: 0.007 s
+Write times Min:       0.005 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 39.062 MB
+Total Throughput:  279.73 MB/s
+Total Duration:    0.140 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.004 s
+Read times 99th %ile: 0.004 s
+Read times 90th %ile: 0.002 s
+Read times 75th %ile: 0.001 s
+Read times 50th %ile: 0.001 s
+Read times 25th %ile: 0.001 s
+Read times Min:       0.001 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 26.965206ms
+=========================================================> 8/9 done
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       1.0000 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Generating in-memory sample data... Done (13.882585ms)
+
+Running Write test...
+
+Running Read test...
+
+Test parameters
+endpoint(s):      [http://127.0.0.1:9000]
+bucket:           sakbucket
+objectNamePrefix: sakbucket
+objectSize:       1.0000 MB
+numClients:       1
+numSamples:       100
+verbose:       %!d(bool=false)
+
+
+Results Summary for Write Operation(s)
+Total Transferred: 100.000 MB
+Total Throughput:  30.86 MB/s
+Total Duration:    3.241 s
+Number of Errors:  0
+------------------------------------
+Write times Max:       0.493 s
+Write times 99th %ile: 0.493 s
+Write times 90th %ile: 0.038 s
+Write times 75th %ile: 0.019 s
+Write times 50th %ile: 0.012 s
+Write times 25th %ile: 0.010 s
+Write times Min:       0.008 s
+
+
+Results Summary for Read Operation(s)
+Total Transferred: 100.000 MB
+Total Throughput:  46.38 MB/s
+Total Duration:    2.156 s
+Number of Errors:  0
+------------------------------------
+Read times Max:       0.284 s
+Read times 99th %ile: 0.284 s
+Read times 90th %ile: 0.032 s
+Read times 75th %ile: 0.021 s
+Read times 50th %ile: 0.014 s
+Read times 25th %ile: 0.011 s
+Read times Min:       0.002 s
+
+
+Cleaning up 100 objects...
+Deleting a batch of 100 objects in range {0, 99}... Succeeded
+Successfully deleted 100/100 objects in 368.963448ms
+=========================================================> 9/9 done
+
